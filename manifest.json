@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Spammy Popups",
+  "version": "0.1",
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "description": "Inserts annoying popup messages into your current browser window",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["spammyPopups.js"]
+    }
+  ]
+}
