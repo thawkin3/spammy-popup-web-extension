@@ -1,5 +1,3 @@
-alert('spammy popups is running!');
-
 var colorOptions = ['deeppink', '#4d90fe', '#2fff82', '#50ffff'];
 
 function addPopup() {
